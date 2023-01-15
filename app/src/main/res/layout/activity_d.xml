@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity_D">
+
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textSize="15dp" />
+    <TextView
+        android:id="@+id/tv5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textSize="15dp" />
+    <TextView
+        android:id="@+id/tv6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textSize="15dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hobby"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:layout_marginTop="100dp"/>
+
+    <CheckBox
+        android:id="@+id/cricket"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cricket"
+        android:textSize="20dp"
+        android:layout_margin="10dp"/>
+    <CheckBox
+        android:id="@+id/volleyball"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Volleyball"
+        android:textSize="20dp"
+        android:layout_margin="10dp"/>
+    <CheckBox
+        android:id="@+id/bedminton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bedminton"
+        android:textSize="20dp"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:id="@+id/btnd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="@color/black"
+        android:text="Next"/>
+
+</LinearLayout>
